@@ -15,9 +15,9 @@ namespace ServerTCP
                 var receivedMessage = tcp.GetMessageLength();
                 var newMessage = tcp.WorkOnData();
                 flag = tcp.SendMessage();
-                Console.WriteLine("Hello Pikra");
+                Console.WriteLine("Hello World");
             } while (flag);
-            Console.WriteLine("Dupa");
+            Console.WriteLine("Pupa");
 
         }
     }
