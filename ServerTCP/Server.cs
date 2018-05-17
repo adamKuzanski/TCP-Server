@@ -95,7 +95,7 @@ namespace ServerTCP
         public string WorkOnData()
         {
             var newMessage = this.Message;
-            newMessage += "to chuj";
+            newMessage += "jest boski";
             this.MessageToBeSent = newMessage;
             return newMessage;
         }
